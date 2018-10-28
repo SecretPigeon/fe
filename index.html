@@ -40,33 +40,36 @@
                     having to distribute encryption keys yourself and without having to trust other parties. Instead of
                     using 3rd party JavaScript code we only use the high-quality API’s provided by modern browsers. As
                     your secrets are encrypted in your browser before being sent, we never see them, and can’t leak
-                    them. Source code is available for anyone to review and is served directly by GitHub. Hashes are
-                    used to verify message integrity and to prevent tampering. As an extra measure your data is also
-                    transferred over TLS and further encrypted using AES when waiting in our data center. </p>
+                    them. Source code is available for anyone to review and is served directly from GitHub via our CDN Cloudfront. Hashes are
+                    used to verify message integrity and prevent tampering. As an extra measure your data is also
+                    transferred over TLS and further encrypted using AES when waiting inside our data center. </p>
+                 <h2>How we are different</h2>
+                <p>Other popular secret sharing sites either don’t support end to end encryption or use symmetric encryption,
+                    requiring you to provide your own encryption keys, which then must be securely shared with your intended 
+                    recipient; leaving you back where you started. Even if you trust owners of the site to transfer your secrets 
+                    without peeking there is still the potential risk of information being leaked accidentally from the site due
+                    to bugs or hacks. Features such as links which only work once don’t do anything to mitigate these risks as you
+                    still can’t know that your secret was securely removed from all servers and logs. </p>
             </div>
 
             <div class="col-md-4">
-                <h2>We are different</h2>
-                <p>Other popular secret sharing sites either don’t support end to end encryption or require you to
-                    provide your own encryption keys, which then must be shared with your intended recipient; leaving
-                    you back where you started. Even if you trust owners of the site to transfer your secrets without
-                    peeking there is still the potential risk of information being leaked accidentally from the site due
-                    to bugs or hacks, possibly without anybody being aware. Features such as links which only work once
-                    don’t do anything to mitigate these risks as you still can’t know that your secret was securely
-                    removed from all servers and logs. </p>
+                  <h2>Browser Support</h2>
+                <p>Modern encryption requires modern browsers. Please make sure you are using the latest version of Chrome, Firefox Quantum, Microsoft Edge, Safari or Opera berfore using this site. We are unable to support Internet Explorer and Opera Mini.</p>
+                
+            </div>
+                 <h2>Cookies</h2>
+                <p>We do not use tracking cookies on any part of any of our sites however if you continue we will need
+                    to store information in your browser's storage in order to provide this service.</p>
             </div>
 
             <div class="col-md-4">
-                <h2>Story</h2>
+                <h2>Our inspiration</h2>
                 <p>During World War II the British intelligence service air dropped carrier pigeons across occupied
                     Europe. These pigeons came with instructions for resistance groups to record encrypted intelligence
                     reports. The reports were attached to the pigeons which flew them safely across enemy lines and back
                     to allied command.</p>
                 <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Source_Columba" role="button">See
                     Wikipedia</a></p>
-                <h2>Cookies</h2>
-                <p>We do not use tracking cookies on any part of any of our sites however if you continue we will need
-                    to store information in your browser's storage in order to provide this service.
             </div>
         </div> <!-- /row >
         <hr>
