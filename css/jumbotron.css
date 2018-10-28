@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+/*body {
+  padding-top: 3.5rem;
+ 
+}*/
+
+.bg-container{
+	 background: url('../images/banner.png') no-repeat center center;
+background-color: rgb(213,222,217)
+	 }
+
+.jumbotron {
+	background-color: rgba(120,144,156,0.3);
+ }
+ 
+.message {
+	color: white;
+}
+

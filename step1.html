@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Secret Pigeon</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/floating-labels.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="form-signin">
+    <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">Airdrop your pigeon</h1>
+
+        <p>This is your pigeon. Air drop it behind enemy lines by sharing the link shown below.</p>
+        <img class="mb-4" src="images/airdrop.png" alt="Prepare pigeon for airdrop" width="250" height="250">
+
+    </div>
+
+    <div class="form-label-group input-group">
+        <input type="text" id="secret" class="form-control" placeholder="Secret" required readonly>
+        <label for="secret">Link</label>
+        <span class="input-group-btn  btn-toolbar">
+		<button id="copy" type="button" class="btn btn-secondary invisible" title="Copy to clipboard">📋</button>
+</span>
+    </div>
+    <footer class="container text-center">
+        <p>&copy; matthew churcher 2018<a class="px-2" href="privacy">Privacy</a><a class="px-2" href="terms">Terms</a>
+        </p>
+    </footer>
+</div>
+<script src="js/crypto.js" defer></script>
+<script src="js/step1.js" defer></script>
+</body>
+</html>
